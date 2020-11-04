@@ -8,5 +8,5 @@ import sports
 from pynotifier import Notification
 while(True):
     MatchInfo=sports.get_sport("Cricket")
-    Notification(title="Live Cricket Score", description=str(MatchInfo),duration=10,icon_path='C:\\Users\\H P\\Downloads\\CricbuzzIcon.ico').send()
+    Notification(title="Live Cricket Score", description=str(MatchInfo),duration=10,icon_path='C:\\Users\\H P\\Downloads\\CricbuzzIcon.ico').send()   #In icon_path add the path of your icon which you want to notification bar
     time.sleep(10)
